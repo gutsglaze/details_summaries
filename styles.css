@@ -1,0 +1,64 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.rpdtitle {
+    text-shadow:
+    0 0 3px white,
+    0 0 6px white;
+}
+
+.rpdsubtitle {
+    font-weight: bolder;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+#rpdimage {
+    height: 100px;
+    width: 100px;
+}
+
+.content {
+    width: 100%;
+        max-width: 40%;
+    text-align: justify;
+    margin-bottom: 1em;
+    border: 2px solid white;
+    border-style: dashed;
+    padding: 10px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-shadow:
+    0 0 3px white,
+    0 0 6px white;
+}
+
+.faq-division {
+    display: flex;
+    gap: 2em;
+}
+
+details {
+    display: inline-block;
+    vertical-align: top;
+    width: %;
+    margin: 0 10px;
+}
